@@ -1,3 +1,11 @@
+html body {
+	width: 100%;
+}
+
+#wrapper {
+	width: 100%;
+}
+
 ::placeholder {
     color: #555A59;
     font-size: 1em;
@@ -282,6 +290,7 @@ footer {
 	ABOUT PAGE
 **********************************/
 .about-cont {
+	width: 100%;
 	.header-menu-list {
 		margin-left: 10em;
 		list-style-type: none;
@@ -484,43 +493,82 @@ footer {
 	background-color: #EAEAEA;
 	padding-bottom: 4em;
 }
+.blog-landing {
+	padding: 6em;
+	color: #555A59;
+	h2 {
+		font-size: 3em;
+	}
+}
+.blogpost {
+	width: 95%;
+	margin-left: 2.5%;
 
-@media screen and (max-width: 411px) {
+	h5 {
+		margin-top: 20px;
+		font-size: 1em;
+		font-weight: bolder;
+	}
+
+	h5 a {
+		color: black !important;
+	}
+
+	p {
+		font-size: 14px;
+		color: #555A59;
+	}
+	.postimg {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 500px) {
     .vision {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
     }
     .what-we-do {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
     }
     .articles-cont {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
     }
     .subscribe-newsletter {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
     }
     .about-us {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
     }
     .how-it-started {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
     }
     .team {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
     }
     .experts {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
     }
     .company-values {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
     }
     .what-science {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
     }
     .science-facts {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
+    }
+    .science-bg {
+    	padding: 40px 20px !important;
+    }
+    .blog-landing {
+    	padding: 40px 20px !important;
+
+    	h2 {
+    		font-size: 2em !important;
+    	}
     }
     footer {
-    	padding: 40px 10px !important;
+    	padding: 40px 20px !important;
     }
     .subscribe-input {
     	width: 100%;
@@ -528,9 +576,6 @@ footer {
     }
     .science-cont {
     	display: none !important;
-    }
-    .science-bg {
-    	padding: 40px 10px !important;
     }
     .science-cont-mobile {
 		background: url("../img/sciencebgmobile.png");

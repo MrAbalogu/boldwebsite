@@ -1,3 +1,9 @@
+html body {
+  width: 100%; }
+
+#wrapper {
+  width: 100%; }
+
 ::placeholder {
   color: #555A59;
   font-size: 1em;
@@ -253,20 +259,22 @@ footer {
 /**********************************
 	ABOUT PAGE
 **********************************/
-.about-cont .header-menu-list {
-  margin-left: 10em;
-  list-style-type: none;
-  display: inline-block;
-  float: left;
-  letter-spacing: 1px;
-  font-weight: lighter; }
-  .about-cont .header-menu-list li {
+.about-cont {
+  width: 100%; }
+  .about-cont .header-menu-list {
+    margin-left: 10em;
+    list-style-type: none;
+    display: inline-block;
     float: left;
-    margin: 0 2em; }
-    .about-cont .header-menu-list li a {
-      color: black;
-      text-decoration: none;
-      font-size: 10px; }
+    letter-spacing: 1px;
+    font-weight: lighter; }
+    .about-cont .header-menu-list li {
+      float: left;
+      margin: 0 2em; }
+      .about-cont .header-menu-list li a {
+        color: black;
+        text-decoration: none;
+        font-size: 10px; }
 
 .about-us {
   padding: 6em;
@@ -421,42 +429,71 @@ footer {
   background-color: #EAEAEA;
   padding-bottom: 4em; }
 
-@media screen and (max-width: 411px) {
+.blog-landing {
+  padding: 6em;
+  color: #555A59; }
+  .blog-landing h2 {
+    font-size: 3em; }
+
+.blogpost {
+  width: 95%;
+  margin-left: 2.5%; }
+  .blogpost h5 {
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bolder; }
+  .blogpost h5 a {
+    color: black !important; }
+  .blogpost p {
+    font-size: 14px;
+    color: #555A59; }
+  .blogpost .postimg {
+    width: 100%; }
+
+@media screen and (max-width: 500px) {
   .vision {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
 
   .what-we-do {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
 
   .articles-cont {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
 
   .subscribe-newsletter {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
 
   .about-us {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
 
   .how-it-started {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
 
   .team {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
 
   .experts {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
 
   .company-values {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
 
   .what-science {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
 
   .science-facts {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
+
+  .science-bg {
+    padding: 40px 20px !important; }
+
+  .blog-landing {
+    padding: 40px 20px !important; }
+    .blog-landing h2 {
+      font-size: 2em !important; }
 
   footer {
-    padding: 40px 10px !important; }
+    padding: 40px 20px !important; }
 
   .subscribe-input {
     width: 100%;
@@ -464,9 +501,6 @@ footer {
 
   .science-cont {
     display: none !important; }
-
-  .science-bg {
-    padding: 40px 10px !important; }
 
   .science-cont-mobile {
     background: url("../img/sciencebgmobile.png");
