@@ -4,6 +4,10 @@ html body {
 #wrapper {
   width: 100%; }
 
+label {
+  font-size: 12px;
+  font-weight: bold; }
+
 ::placeholder {
   color: #555A59;
   font-size: 1em;
@@ -51,6 +55,16 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
   margin-bottom: 20px; }
   .yellow-button:hover {
     background-color: #FCE188; }
+
+.green-button {
+  background-color: #01A48F;
+  width: 100%;
+  border-radius: 50px;
+  font-weight: bold;
+  color: white !important;
+  margin-bottom: 20px; }
+  .green-button:hover {
+    background-color: #5FD2C2; }
 
 .white-button {
   background-color: white;
@@ -119,14 +133,18 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
 
 /*** HEADER STYLES ****/
 header {
+  width: 100%;
+  position: fixed;
   padding: 10px;
-  height: 50px; }
+  height: 50px;
+  z-index: 200; }
 
 .header-logo {
   height: 35px;
   float: left; }
 
 .list-item:hover {
+  font-weight: bolder !important;
   padding-bottom: 10px;
   border-bottom: 2px solid #FAC74C; }
 
@@ -256,22 +274,26 @@ footer {
   width: 50%;
   font-size: 1em; }
 
+.contact-input {
+  width: 100%;
+  font-size: 1em; }
+
 /**********************************
 	ABOUT PAGE
 **********************************/
-.about-cont {
+.whitepages-cont {
   width: 100%; }
-  .about-cont .header-menu-list {
+  .whitepages-cont .header-menu-list {
     margin-left: 10em;
     list-style-type: none;
     display: inline-block;
     float: left;
     letter-spacing: 1px;
     font-weight: lighter; }
-    .about-cont .header-menu-list li {
+    .whitepages-cont .header-menu-list li {
       float: left;
       margin: 0 2em; }
-      .about-cont .header-menu-list li a {
+      .whitepages-cont .header-menu-list li a {
         color: black;
         text-decoration: none;
         font-size: 10px; }
@@ -429,11 +451,17 @@ footer {
   background-color: #EAEAEA;
   padding-bottom: 4em; }
 
-.blog-landing {
+.whitepages-landing {
   padding: 6em;
   color: #555A59; }
-  .blog-landing h2 {
+  .whitepages-landing h2 {
     font-size: 3em; }
+  .whitepages-landing h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 3em 0; }
+  .whitepages-landing p {
+    font-weight: lighter; }
 
 .blogpost {
   width: 95%;
@@ -449,6 +477,80 @@ footer {
     color: #555A59; }
   .blogpost .postimg {
     width: 100%; }
+
+.product-cont {
+  background-color: #74A18E; }
+  .product-cont .icon-cont {
+    padding: 10em; }
+    .product-cont .icon-cont h5 {
+      color: white;
+      letter-spacing: 0.2px;
+      line-height: 25px; }
+    .product-cont .icon-cont p {
+      color: white; }
+  .product-cont .mobileapp {
+    width: 80%;
+    margin-left: 10%; }
+
+.iconzemedy {
+  -webkit-filter: drop-shadow(-15px 26px 33px rgba(0, 0, 0, 0.4));
+  filter: drop-shadow(-15px 26px 33px rgba(0, 0, 0, 0.4));
+  margin-bottom: 20px; }
+
+.upcoming-products {
+  padding: 6em;
+  color: #555A59; }
+  .upcoming-products h4 {
+    font-size: 2em; }
+
+.newsletter-card {
+  background: white;
+  padding: 2em;
+  width: 95%;
+  margin-left: 2.5%;
+  color: #555A59;
+  margin-bottom: 20px;
+  text-align: center;
+  -webkit-box-shadow: -1px 46px 108px -19px #787878;
+  -moz-box-shadow: -1px 46px 108px -19px #787878;
+  box-shadow: -1px 46px 108px -19px #787878; }
+  .newsletter-card h5 {
+    text-align: left; }
+  .newsletter-card p {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12px; }
+
+.contactbg {
+  width: 100%; }
+
+.contactform {
+  color: #555A59;
+  width: 45%;
+  position: absolute;
+  top: 100px;
+  right: 50px;
+  background-color: white;
+  -webkit-box-shadow: -1px 46px 108px -19px #787878;
+  -moz-box-shadow: -1px 46px 108px -19px #787878;
+  box-shadow: -1px 46px 108px -19px #787878; }
+
+.form-cont {
+  padding: 2em; }
+
+.otherways {
+  background: #EAEAEA;
+  padding: 2em; }
+  .otherways h5 {
+    margin-bottom: 20px; }
+  .otherways li {
+    list-style-type: none;
+    font-size: 13px;
+    margin-bottom: 10px; }
+
+.news-coverage-cont {
+  background: #EAEAEA;
+  padding: 3em 0; }
 
 @media screen and (max-width: 500px) {
   .vision {
@@ -487,9 +589,13 @@ footer {
   .science-bg {
     padding: 40px 20px !important; }
 
-  .blog-landing {
+  .icon-cont {
+    padding: 40px 20px !important;
+    text-align: center; }
+
+  .whitepages-landing {
     padding: 40px 20px !important; }
-    .blog-landing h2 {
+    .whitepages-landing h2 {
       font-size: 2em !important; }
 
   footer {
@@ -533,6 +639,13 @@ footer {
           font-size: 10px; }
 
   .newsletter-h1 {
-    font-size: 20px; } }
+    font-size: 20px; }
+
+  .contactform {
+    position: relative;
+    width: 95%;
+    margin: 2.5%;
+    top: 0;
+    right: 0; } }
 
 /*# sourceMappingURL=main.css.map */
