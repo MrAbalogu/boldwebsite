@@ -81,7 +81,8 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
 .index-landing-button {
   width: 280px;
   height: 58.97px;
-  font-size: 1.875em !important; }
+  font-size: 1em !important;
+  padding: 17px 30px !important; }
 
 .twitter-button {
   background-color: #6A8FCE;
@@ -209,8 +210,8 @@ footer {
   background-size: cover;
   background-position: center;
   display: inline-block;
-  height: 100%;
-  width: 100%;
+  height: 100vw;
+  width: 100vw;
   text-align: center; }
   .homebg-cont h1 {
     margin-top: 3em;
@@ -287,7 +288,7 @@ footer {
   box-shadow: -1px 46px 108px -19px #787878; }
   .article-card h5 {
     text-align: left;
-    font-size: 1.750em; }
+    font-size: 1.3em; }
   .article-card p {
     margin-top: 0.875em;
     text-align: left;
@@ -303,7 +304,7 @@ footer {
   margin-bottom: 20px; }
 
 .subscribe-input {
-  width: 80%;
+  width: 60%;
   font-size: 1em; }
 
 .contact-input {
@@ -583,6 +584,78 @@ footer {
 .news-coverage-cont {
   background: #EAEAEA;
   padding: 3em 0; }
+
+/**********************************
+	POST PAGE
+**********************************/
+.post-header {
+  background-color: #F9C929; }
+
+.post-cont {
+  background: #F9C929;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: inline-block;
+  width: 100%;
+  color: #555A59; }
+  .post-cont h1 {
+    font-size: 4em; }
+  .post-cont p {
+    margin-top: 8em;
+    font-size: 0.625em; }
+    .post-cont p a {
+      color: #555A59; }
+  .post-cont .header-menu-list {
+    margin-left: 10em;
+    list-style-type: none;
+    display: inline-block;
+    float: left;
+    letter-spacing: 1px;
+    font-weight: lighter; }
+    .post-cont .header-menu-list li {
+      float: left;
+      margin: 0 2em; }
+      .post-cont .header-menu-list li a {
+        color: #555A59;
+        text-decoration: none;
+        font-size: 0.938em; }
+    .post-cont .header-menu-list .list-item:hover {
+      color: white;
+      padding-bottom: 13px;
+      border-bottom: 2px solid white; }
+
+.post-title {
+  margin: 0 6em;
+  font-size: 0.875em; }
+
+.postimg {
+  width: 100%; }
+
+.thepost-cont {
+  padding: 6em; }
+
+.yellow-hr {
+  border: 2px solid #F9C929; }
+
+.largefont {
+  font-size: 4em;
+  float: left; }
+
+.mainpost {
+  color: #1D1E1F;
+  display: inline-block; }
+  .mainpost .article-heading {
+    font-weight: bold;
+    float: left;
+    width: 94%;
+    padding-top: 20px; }
+    .mainpost .article-heading div {
+      font-size: 3em;
+      float: left; }
+
+.sidepost {
+  padding-top: 3em; }
 
 @media screen and (max-width: 500px) {
   .vision {
