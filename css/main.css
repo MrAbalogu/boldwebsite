@@ -678,7 +678,7 @@ footer {
       font-size: 1.75em !important;
       font-weight: 700; }
     .what-we-do p {
-      font-size: 1.250em !important; }
+      font-size: 1.250em; }
 
   .articles-cont {
     padding: 40px 20px !important; }
@@ -784,10 +784,9 @@ footer {
     float: left; }
 
   .pillar-text {
-    float: left;
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 30px;
-    padding-top: 28px; } }
+    font-size: 1em !important;
+    font-weight: 400 !important;
+    margin-left: 30px !important;
+    padding-top: 30px !important; } }
 
 /*# sourceMappingURL=main.css.map */
