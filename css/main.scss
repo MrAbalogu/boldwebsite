@@ -225,7 +225,7 @@ footer {
 	background-size: cover;
 	background-position: center;
 	display: inline-block;
-	height: 100vw;
+	height: 70vw;
 	width: 100vw;
 	text-align: center;
 	h1 {
@@ -750,6 +750,10 @@ footer {
 			float: left;
 		}
 	}
+}
+.more-articles {
+	margin: 0 4em;
+	font-size: 1.750em;
 }
 .sidepost {
 	padding-top: 3em;

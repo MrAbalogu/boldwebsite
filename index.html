@@ -64,7 +64,7 @@
 
         <div class="homebg-cont" style="padding-bottom: 10em">
 
-        	<header class="index-header">
+        	<header id="header">
                 <div>
                     <a href="index.html"><img src="img/logo-white.png" class="header-logo"></a> 
                 </div>        
@@ -197,6 +197,10 @@
     $("#remove-toggle").click(function(e){
         e.preventDefault();
         $("#wrapper").removeClass("toggled");
+    });
+    $(window).scroll(function() {
+        console.log("scrolling");
+        $("#header").addClass("index-header");
     });
     </script>
 
