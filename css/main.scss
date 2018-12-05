@@ -197,6 +197,15 @@ footer {
 /**********************************
 	HOME PAGE
 **********************************/
+.index-header {
+	background-color: #009D8F;
+}
+.white-header {
+	background-color: white;
+}
+.science-header {
+	background-color: black;
+}
 .homebg-cont {
 	background: url("../img/homebg.jpg");
 	background-repeat: no-repeat;
@@ -646,7 +655,7 @@ footer {
 }
 @media screen and (max-width: 500px) {
     .vision {
-    	padding: 40px 20px !important;
+    	padding: 80px 20px !important;
     }
     .what-we-do {
     	padding: 40px 20px !important;
@@ -658,35 +667,35 @@ footer {
     	padding: 40px 20px !important;
     }
     .about-us {
-    	padding: 40px 20px !important;
+    	padding: 80px 20px !important;
     }
     .how-it-started {
-    	padding: 40px 20px !important;
+    	padding: 80px 20px !important;
     }
     .team {
-    	padding: 40px 20px !important;
+    	padding: 80px 20px !important;
     }
     .experts {
-    	padding: 40px 20px !important;
+    	padding: 80px 20px !important;
     }
     .company-values {
-    	padding: 40px 20px !important;
+    	padding: 80px 20px !important;
     }
     .what-science {
-    	padding: 40px 20px !important;
+    	padding: 80px 20px !important;
     }
     .science-facts {
-    	padding: 40px 20px !important;
+    	padding: 80px 20px !important;
     }
     .science-bg {
-    	padding: 40px 20px !important;
+    	padding: 80px 20px !important;
     }
     .icon-cont {
-    	padding: 40px 20px !important;
+    	padding: 80px 20px !important;
     	text-align: center;
     }
     .whitepages-landing {
-    	padding: 40px 20px !important;
+    	padding: 80px 20px !important;
 
     	h2 {
     		font-size: 2em !important;
