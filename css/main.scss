@@ -766,11 +766,15 @@ footer {
     .vision {
     	padding: 80px 20px !important;
     	h1 {
-    		font-size: 1.5em !important;
+    		font-size: 1.75em !important;
     	}
     }
     .what-we-do {
     	padding: 40px 20px !important;
+    	h2 {
+    		font-size: 1.75em !important;
+    		font-weight: 700;
+    	}
     }
     .articles-cont {
     	padding: 40px 20px !important;
@@ -869,7 +873,14 @@ footer {
 		right: 0;
 	}
 	.homebg-cont {
-		width: unset !important;
-		height: unset !important;
+		width: 100% !important;
+		height: 100% !important;
+
+		h1 {
+			font-size: 3.2em !important;
+		}
+		p {
+			font-size: 1.6em !important;
+		}
 	}
 }

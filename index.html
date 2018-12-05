@@ -200,10 +200,17 @@
         $("#wrapper").removeClass("toggled");
     });
     $(window).scroll(function() {
-        console.log("scrolling");
-        $("#header").addClass("whitepages-cont");
-        $("#white-logo").addClass("display-none");
-        $("#green-logo").removeClass("display-none");
+        var scroll = $(window).scrollTop();
+        if (scroll >= 100) {
+            $("#header").addClass("whitepages-cont");
+            $("#white-logo").addClass("display-none");
+            $("#green-logo").removeClass("display-none");
+        } else {
+            $("#header").removeClass("whitepages-cont");
+            $("#white-logo").removeClass("display-none");
+            $("#green-logo").addClass("display-none");
+        }
+        
     });
     </script>
 
