@@ -91,27 +91,27 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
 .twitter-button {
 	background-color: #6A8FCE;
     border-radius: 50px;
-    font-weight: bold;
+    font-weight: lighter;
     color: white !important;
     &:hover {
-    	background-color: #62779B;
+    	background-color: #63A7FF;
     	color: white;
     }
 }
 .fb-button {
-	background-color: #0064ED;
+	background-color: #62779B;
     border-radius: 50px;
-    font-weight: bold;
+    font-weight: lighter;
     color: white !important;
     &:hover {
-    	background-color: #224786;
+    	background-color: #009FE5;
     	color: white;
     }
 }
 .ln-button {
-	background-color: #63A7FF;
+	background-color: #224786;
     border-radius: 50px;
-    font-weight: bold;
+    font-weight: lighter;
     color: white !important;
     &:hover {
     	background-color: gray;
@@ -135,13 +135,14 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
 	font-size: 11px;
 }
 .social-button {
-	padding: 3px 20px;
+	padding: 7px 40px;
 	font-size: 12px;
 }
 .card-button {
 	margin-top: 20px;
-	padding: 3px 30px;
-	font-size: 11px;
+    padding: 9px 59px;
+    font-size: 11px;
+    width: 100%;
 }
 .large-button {
 	padding: 10px 30px;
@@ -775,9 +776,15 @@ footer {
     		font-size: 1.75em !important;
     		font-weight: 700;
     	}
+    	p {
+    		font-size: 1.250em !important;
+    	}
     }
     .articles-cont {
     	padding: 40px 20px !important;
+    	h2 {
+    		font-size: 1.750em !important;
+    	}
     }
     .subscribe-newsletter {
     	padding: 40px 20px !important;
@@ -882,5 +889,16 @@ footer {
 		p {
 			font-size: 1.6em !important;
 		}
+	}
+	.pillar-icon {
+		height: 120px;
+		float: left;
+	}
+	.pillar-text {
+		float: left;
+		font-size: 20px;
+		font-weight: 400;
+		margin-left: 30px;
+    	padding-top: 28px;
 	}
 }
