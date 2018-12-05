@@ -1,8 +1,10 @@
 html body {
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
 
 #wrapper {
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
 
 label {
   font-size: 12px;
@@ -76,6 +78,11 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
     background-color: gray;
     color: white !important; }
 
+.index-landing-button {
+  width: 280px;
+  height: 58.97px;
+  font-size: 1.875em !important; }
+
 .twitter-button {
   background-color: #6A8FCE;
   border-radius: 50px;
@@ -137,7 +144,8 @@ header {
   position: fixed;
   padding: 10px;
   height: 50px;
-  z-index: 200; }
+  z-index: 200;
+  box-sizing: border-box; }
 
 .header-logo {
   height: 35px;
@@ -145,10 +153,11 @@ header {
 
 .list-item:hover {
   font-weight: bolder !important;
-  padding-bottom: 10px;
+  padding-bottom: 13px;
   border-bottom: 2px solid #FAC74C; }
 
 .list-btn {
+  margin-top: 3px;
   float: right; }
 
 @media screen and (min-width: 1187px) {
@@ -166,13 +175,13 @@ footer {
   padding: 6em;
   background: #CCEBED; }
   footer p {
-    font-size: 12px; }
+    font-size: 0.625em; }
 
 .footer-list {
   list-style-type: none;
   display: block;
   margin-bottom: 5em;
-  font-size: 12px;
+  font-size: 0.875em;
   color: #555A59; }
   .footer-list li {
     margin-bottom: 10px; }
@@ -191,21 +200,25 @@ footer {
 .science-header {
   background-color: black; }
 
+.header-menu-list {
+  margin-top: 3px; }
+
 .homebg-cont {
   background: url("../img/homebg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   display: inline-block;
+  height: 100%;
   width: 100%;
   text-align: center; }
   .homebg-cont h1 {
     margin-top: 3em;
     color: white;
-    font-size: 4em; }
+    font-size: 4.750em; }
   .homebg-cont p {
     color: white;
-    font-size: 1.2em; }
+    font-size: 2.500em; }
   .homebg-cont .header-menu-list {
     margin-left: 10em;
     list-style-type: none;
@@ -219,12 +232,12 @@ footer {
       .homebg-cont .header-menu-list li a {
         color: white;
         text-decoration: none;
-        font-size: 10px; }
+        font-size: 0.938em; }
 
 .vision {
   padding: 6em 6em; }
   .vision h1 {
-    font-size: 3em;
+    font-size: 5em;
     color: #555A59;
     font-weight: bolder; }
     .vision h1 span {
@@ -235,11 +248,11 @@ footer {
   background-color: #F9C929;
   color: #555A59; }
   .what-we-do p {
-    font-size: 1.2em;
+    font-size: 1.750em;
     margin-bottom: 4em;
     letter-spacing: 0.5; }
   .what-we-do h2 {
-    font-size: 2em; }
+    font-size: 3.250em; }
 
 .pillar {
   text-align: center; }
@@ -253,13 +266,13 @@ footer {
 .pillar-text {
   font-weight: bolder;
   font-size: 1.5em !important;
-  padding-top: 20px; }
+  padding-top: 1.750em; }
 
 .articles-cont {
   padding: 4em 6em;
   color: #555A59; }
   .articles-cont h2 {
-    font-size: 2em; }
+    font-size: 3.250em; }
 
 .article-card {
   background: white;
@@ -273,9 +286,10 @@ footer {
   -moz-box-shadow: -1px 46px 108px -19px #787878;
   box-shadow: -1px 46px 108px -19px #787878; }
   .article-card h5 {
-    text-align: left; }
+    text-align: left;
+    font-size: 1.750em; }
   .article-card p {
-    margin-top: 20px;
+    margin-top: 0.875em;
     text-align: left;
     font-size: 12px; }
 
@@ -284,8 +298,12 @@ footer {
   margin-top: 40px;
   color: #555A59; }
 
+.newsletter-h1 {
+  font-size: 3.250em;
+  margin-bottom: 20px; }
+
 .subscribe-input {
-  width: 50%;
+  width: 80%;
   font-size: 1em; }
 
 .contact-input {
@@ -310,7 +328,7 @@ footer {
       .whitepages-cont .header-menu-list li a {
         color: black;
         text-decoration: none;
-        font-size: 10px; }
+        font-size: 0.938em; }
 
 .about-us {
   padding: 6em;
@@ -425,10 +443,10 @@ footer {
       .science-cont .header-menu-list li a {
         color: white;
         text-decoration: none;
-        font-size: 10px; }
+        font-size: 0.938em; }
     .science-cont .header-menu-list .list-item:hover {
       color: rgba(255, 255, 255, 0.75);
-      padding-bottom: 10px;
+      padding-bottom: 13px;
       border-bottom: 2px solid rgba(255, 255, 255, 0.75); }
 
 .science-bg {
@@ -569,6 +587,8 @@ footer {
 @media screen and (max-width: 500px) {
   .vision {
     padding: 80px 20px !important; }
+    .vision h1 {
+      font-size: 1.5em !important; }
 
   .what-we-do {
     padding: 40px 20px !important; }
@@ -650,7 +670,7 @@ footer {
         .science-cont-mobile .header-menu-list li a {
           color: white;
           text-decoration: none;
-          font-size: 10px; }
+          font-size: 0.938em; }
 
   .newsletter-h1 {
     font-size: 20px; }
@@ -660,6 +680,9 @@ footer {
     width: 95%;
     margin: 2.5%;
     top: 0;
-    right: 0; } }
+    right: 0; }
+
+  .homebg-cont {
+    width: unset !important; } }
 
 /*# sourceMappingURL=main.css.map */
