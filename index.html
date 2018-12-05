@@ -66,7 +66,8 @@
 
         	<header id="header">
                 <div>
-                    <a href="index.html"><img src="img/logo-white.png" class="header-logo"></a> 
+                    <a href="index.html"><img id="white-logo" src="img/logo-white.png" class="header-logo"></a>
+                    <a href="index.html"><img id="green-logo" src="img/logo-green-black.png" class="header-logo display-none"></a> 
                 </div>        
 
                 <div class="header-menu-list">
@@ -200,7 +201,9 @@
     });
     $(window).scroll(function() {
         console.log("scrolling");
-        $("#header").addClass("index-header");
+        $("#header").addClass("whitepages-cont");
+        $("#white-logo").addClass("display-none");
+        $("#green-logo").removeClass("display-none");
     });
     </script>
 
