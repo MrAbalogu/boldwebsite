@@ -245,7 +245,7 @@ footer {
         font-size: 0.938em; }
 
 .vision {
-  padding: 6em 6em; }
+  padding: 196px 140px !important; }
   .vision h1 {
     font-size: 5em;
     color: #555A59;
@@ -375,14 +375,17 @@ footer {
     font-weight: 700; }
 
 .leader-details {
-  font-size: 10px; }
+  font-size: 0.625em; }
   .leader-details h4 {
     padding-top: 10px;
-    font-size: 1.5em;
-    font-weight: bolder; }
+    font-size: 1.250em;
+    font-weight: 400;
+    margin-bottom: 5px !important; }
   .leader-details p {
-    font-size: 15px;
-    margin-bottom: 10px; }
+    font-size: 0.875em;
+    margin-bottom: 10px;
+    font-weight: 400;
+    margin-bottom: 5px !important; }
 
 .side-quote {
   padding: 20px 80px 0 40px;
@@ -397,20 +400,30 @@ footer {
 .experts {
   padding: 0 6em 6em 6em;
   color: #555A59; }
+  .experts h1 {
+    font-size: 3.250em;
+    margin-bottom: 1em; }
+  .experts h5 {
+    font-size: 1.750em;
+    font-weight: 700; }
+  .experts p {
+    font-size: 0.875em;
+    font-weight: 700; }
 
 .expert-card {
   margin: 1em 0; }
 
 .expert-details {
   padding: 3em;
-  font-size: 10px; }
+  font-size: 0.625em; }
   .expert-details h4 {
-    font-size: 1.5em;
-    margin-bottom: 0;
-    font-weight: bolder; }
+    padding-top: 10px;
+    font-size: 1.250em;
+    font-weight: 400; }
   .expert-details p {
-    font-size: 15px;
-    margin-bottom: 0; }
+    font-size: 0.875em;
+    margin-bottom: 10px;
+    font-weight: 400; }
 
 .company-values {
   padding: 6em 6em 2em 6em;
@@ -708,18 +721,57 @@ footer {
 
   .about-us {
     padding: 80px 20px !important; }
+    .about-us h1 {
+      font-size: 1.750em !important; }
+    .about-us p {
+      font-size: 0.625em !important; }
 
   .how-it-started {
-    padding: 80px 20px !important; }
+    padding: 80px 20px !important;
+    font-size: 1.750em !important; }
+    .how-it-started p {
+      font-size: 0.875em !important; }
+    .how-it-started .side-quote {
+      font-size: 0.625em !important; }
 
   .team {
     padding: 80px 20px !important; }
+    .team h1 {
+      font-size: 1.750em !important; }
+
+  .leaders-list img {
+    height: 80px;
+    float: left; }
+  .leaders-list .leader-details {
+    text-align: left !important;
+    padding-left: 120px;
+    margin-bottom: 30px; }
+    .leaders-list .leader-details h4 {
+      margin-bottom: 0 !important; }
+    .leaders-list .leader-details p {
+      margin-bottom: 0 !important; }
 
   .experts {
     padding: 80px 20px !important; }
 
+  .expert-details {
+    padding: 5px 0 0 40px !important; }
+    .expert-details h4 {
+      margin-bottom: 0 !important; }
+    .expert-details p {
+      margin-bottom: 0 !important; }
+
+  .expertimg {
+    height: 80px; }
+
   .company-values {
     padding: 80px 20px !important; }
+
+  .company-values-card h3 {
+    font-size: 1.250em !important;
+    font-weight: 700; }
+  .company-values-card p {
+    font-size: 0.875em !important; }
 
   .what-science {
     padding: 80px 20px !important; }
@@ -780,7 +832,7 @@ footer {
           font-size: 0.938em; }
 
   .newsletter-h1 {
-    font-size: 20px; }
+    font-size: 1.750em; }
 
   .contactform {
     position: relative;
