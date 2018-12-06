@@ -396,7 +396,8 @@ footer {
   color: #555A59; }
   .team h1 {
     font-size: 3.250em;
-    margin-bottom: 1em; }
+    margin-bottom: 1em;
+    font-weight: 700; }
   .team h5 {
     font-size: 1.750em;
     font-weight: 700; }
@@ -770,7 +771,8 @@ footer {
   .team {
     padding: 40px 20px !important; }
     .team h1 {
-      font-size: 1.750em !important; }
+      font-size: 1.750em !important;
+      font-weight: 700; }
 
   .leaders-list img {
     height: 80px;
@@ -780,7 +782,8 @@ footer {
     padding-left: 120px;
     margin-bottom: 30px; }
     .leaders-list .leader-details h4 {
-      margin-bottom: 0 !important; }
+      margin-bottom: 0 !important;
+      padding-top: 8px !important; }
     .leaders-list .leader-details p {
       margin-bottom: 0 !important; }
 
