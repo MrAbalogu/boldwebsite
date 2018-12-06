@@ -368,13 +368,13 @@ footer {
         text-decoration: none;
         font-size: 0.938em; }
 
-.about-us {
+.page-title {
   padding: 6em;
   color: #555A59; }
-  .about-us h1 {
+  .page-title h1 {
     font-size: 4.750em;
     font-weight: 700; }
-  .about-us p {
+  .page-title p {
     font-size: 1.250em;
     font-weight: bold; }
 
@@ -750,11 +750,11 @@ footer {
   .subscribe-newsletter {
     padding: 40px 20px !important; }
 
-  .about-us {
+  .page-title {
     padding: 80px 20px !important; }
-    .about-us h1 {
+    .page-title h1 {
       font-size: 1.750em !important; }
-    .about-us p {
+    .page-title p {
       font-size: 0.625em !important; }
 
   .how-it-started {
@@ -818,11 +818,6 @@ footer {
   .icon-cont {
     padding: 80px 20px !important;
     text-align: center; }
-
-  .whitepages-landing {
-    padding: 80px 20px !important; }
-    .whitepages-landing h2 {
-      font-size: 2em !important; }
 
   footer {
     padding: 40px 20px !important; }
