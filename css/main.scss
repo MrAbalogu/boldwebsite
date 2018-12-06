@@ -109,6 +109,16 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
     	color: white !important;
     }
 }
+.share-button {
+	padding: 3px 40px !important;
+	border: 1px solid black;
+	color: black;
+	border-radius: 50px;
+	&:hover {
+    	background-color: black;
+    	color: white !important;
+    }
+}
 .index-landing-button {
 	width: 280px;
   	height: 58.97px;
@@ -823,17 +833,7 @@ footer {
 	display: inline-block;
 	width: 100%;
 	color: #555A59;
-	h1 {
-		font-size: 4em;
-	}
-	p {
-		margin-top: 8em;
-		font-size: 0.625em;
-
-		a {
-			color: #555A59;
-		}
-	}
+	padding-bottom: 2em;
 	.header-menu-list {
 		margin-left: 10em;
 		list-style-type: none;
@@ -858,8 +858,22 @@ footer {
 	}
 }
 .post-title {
-	margin: 0 6em;
-	font-size: 0.875em;
+	padding: 6em 140px 10px 6em;
+    color: #555A59;
+    p a {
+    	font-size: 1.250em;
+    	font-weight: bold;
+    	color: #555A59;
+    }
+    h1 {
+    	font-size: 4.750em;
+    	font-weight: 700;
+    }
+    span {
+    	color: black;
+    	font-size: 1em;
+    	font-weight: 700;
+    }
 }
 .postimg {
 	width: 100%;
@@ -879,13 +893,21 @@ footer {
 	display: inline-block;
 	.article-heading {
 		font-weight: bold;
-		float: left;
 		width: 94%;
 		padding-top: 20px;
+		font-size: 1.250em;
 		div {
-			font-size: 3em;
+			font-size: 4em;
 			float: left;
 		}
+	}
+	p {
+		font-size: 0.875em;
+	}
+	span {
+		font-weight: 700;
+		font-size: 1.250em;
+		margin-right: 30px;
 	}
 }
 .more-articles {
@@ -893,7 +915,11 @@ footer {
 	font-size: 1.750em;
 }
 .sidepost {
-	padding-top: 3em;
+	padding-top: 5em;
+	p {
+		font-size: 0.625em;
+		margin-top: 20px;
+	}
 }
 @media screen and (max-width: 500px) {
     .vision {
@@ -985,6 +1011,10 @@ footer {
     }
     .company-values {
     	padding: 40px 20px !important;
+
+    	h2 {
+    		font-size: 1.750em;
+    	}
     }
     .company-values-card {
     	h3 {
@@ -1151,5 +1181,24 @@ footer {
 	}
 	.science-pr {
 		display: none;
+	}
+	.post-title {
+		padding: 80px 20px 15px 20px !important;
+		p {
+			font-size: 0.625em !important;
+		}
+		h1 {
+			font-size: 1.750em !important;
+			margin-bottom: 0;
+		}
+		span {
+			font-size: 0.425em !important;
+		}
+	}
+	.post-cont {
+		padding-bottom: 1em;
+	}
+	.thepost-cont {
+		padding: 10px 20px 40px 20px !important;
 	}
 }

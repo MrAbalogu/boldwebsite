@@ -106,6 +106,15 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
     background-color: gray;
     color: white !important; }
 
+.share-button {
+  padding: 3px 40px !important;
+  border: 1px solid black;
+  color: black;
+  border-radius: 50px; }
+  .share-button:hover {
+    background-color: black;
+    color: white !important; }
+
 .index-landing-button {
   width: 280px;
   height: 58.97px;
@@ -721,14 +730,8 @@ footer {
   background-position: center;
   display: inline-block;
   width: 100%;
-  color: #555A59; }
-  .post-cont h1 {
-    font-size: 4em; }
-  .post-cont p {
-    margin-top: 8em;
-    font-size: 0.625em; }
-    .post-cont p a {
-      color: #555A59; }
+  color: #555A59;
+  padding-bottom: 2em; }
   .post-cont .header-menu-list {
     margin-left: 10em;
     list-style-type: none;
@@ -749,8 +752,19 @@ footer {
       border-bottom: 2px solid white; }
 
 .post-title {
-  margin: 0 6em;
-  font-size: 0.875em; }
+  padding: 6em 140px 10px 6em;
+  color: #555A59; }
+  .post-title p a {
+    font-size: 1.250em;
+    font-weight: bold;
+    color: #555A59; }
+  .post-title h1 {
+    font-size: 4.750em;
+    font-weight: 700; }
+  .post-title span {
+    color: black;
+    font-size: 1em;
+    font-weight: 700; }
 
 .postimg {
   width: 100%; }
@@ -770,19 +784,28 @@ footer {
   display: inline-block; }
   .mainpost .article-heading {
     font-weight: bold;
-    float: left;
     width: 94%;
-    padding-top: 20px; }
+    padding-top: 20px;
+    font-size: 1.250em; }
     .mainpost .article-heading div {
-      font-size: 3em;
+      font-size: 4em;
       float: left; }
+  .mainpost p {
+    font-size: 0.875em; }
+  .mainpost span {
+    font-weight: 700;
+    font-size: 1.250em;
+    margin-right: 30px; }
 
 .more-articles {
   margin: 0 4em;
   font-size: 1.750em; }
 
 .sidepost {
-  padding-top: 3em; }
+  padding-top: 5em; }
+  .sidepost p {
+    font-size: 0.625em;
+    margin-top: 20px; }
 
 @media screen and (max-width: 500px) {
   .vision {
@@ -857,6 +880,8 @@ footer {
 
   .company-values {
     padding: 40px 20px !important; }
+    .company-values h2 {
+      font-size: 1.750em; }
 
   .company-values-card h3 {
     font-size: 1.250em !important;
@@ -997,6 +1022,22 @@ footer {
     margin-top: 0 !important; }
 
   .science-pr {
-    display: none; } }
+    display: none; }
+
+  .post-title {
+    padding: 80px 20px 15px 20px !important; }
+    .post-title p {
+      font-size: 0.625em !important; }
+    .post-title h1 {
+      font-size: 1.750em !important;
+      margin-bottom: 0; }
+    .post-title span {
+      font-size: 0.425em !important; }
+
+  .post-cont {
+    padding-bottom: 1em; }
+
+  .thepost-cont {
+    padding: 10px 20px 40px 20px !important; } }
 
 /*# sourceMappingURL=main.css.map */
