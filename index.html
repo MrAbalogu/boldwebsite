@@ -88,7 +88,7 @@
                     <li><a href="blog.html" class="list-item">Blog</a></li>
                 </div>	
 
-                <div id="black-icon" class="nav-img display-none"><a href="#menu-toggle" id="menu-toggle"><img src="img/toggleicon.png"></a></div>
+                <div id="black-icon" class="nav-img display-none"><a href="#menu-toggle" id="menu-toggle2"><img src="img/toggleicon.png"></a></div>
                 <div id="white-icon" class="nav-img"><a href="#menu-toggle" id="menu-toggle"><img src="img/toggleicon-white.png"></a></div>
 
                 <div class="list-btn"><a href="contact.html" class="btn yellow-button small-button">Contact</a></div>
@@ -212,6 +212,10 @@
     $("#remove-toggle").click(function(e){
         e.preventDefault();
         $("#wrapper").removeClass("toggled");
+    });
+    $("#menu-toggle2").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").addClass("toggled");
     });
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
