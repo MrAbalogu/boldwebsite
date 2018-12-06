@@ -43,6 +43,9 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
 	height: 20px;
 	float: right;
 }
+.footer-icons {
+	height: 20px;
+}
 .display-none {
 	display: none;
 }
@@ -93,6 +96,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
     border-radius: 50px;
     font-weight: lighter;
     color: white !important;
+    padding: 7px 45px !important;
     &:hover {
     	background-color: #63A7FF;
     	color: white;
@@ -113,6 +117,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
     border-radius: 50px;
     font-weight: lighter;
     color: white !important;
+    padding: 7px 42px !important;
     &:hover {
     	background-color: gray;
     	color: white;
@@ -372,7 +377,11 @@ footer {
 	padding: 6em;
 	color: #555A59;
 	h1 {
-		font-size: 3em;
+		font-size: 4.750em;
+		font-weight: 700;
+	}
+	p {
+		font-size: 1.250em;
 	}
 }
 .aboutbg {
@@ -381,17 +390,27 @@ footer {
 .how-it-started {
 	padding: 6em;
 	color: #555A59;
-
 	h2 {
-		margin-bottom: 2em;
+		margin-bottom: 2.5em;
+	}
+	p {
+		font-size: 1.250em;
 	}
 }
 .team {
 	padding: 0 6em 6em 6em;
 	color: #555A59;
-
 	h1 {
+		font-size: 3.250em;
 		margin-bottom: 1em;
+	}
+	h5 {
+		font-size: 1.750em;
+		font-weight: 700;
+	}
+	p {
+		font-size: 0.875em;
+		font-weight: 700;
 	}
 }
 .leader-details {
@@ -409,6 +428,7 @@ footer {
 .side-quote {
 	padding: 20px 80px 0 40px;
 	color: rgba(0, 0, 0, 0.25);
+	font-size: 1.750em;
 }
 .leaders-list {
 	text-align: center;
