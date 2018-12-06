@@ -678,6 +678,7 @@ footer {
 		margin-top: 20px;
 		font-size: 1em;
 		font-weight: bolder;
+		margin-bottom: 0;
 	}
 
 	h5 a {
@@ -687,6 +688,7 @@ footer {
 	p {
 		font-size: 14px;
 		color: #555A59;
+		font-weight: bold;
 	}
 	.postimg {
 		width: 100%;
@@ -1111,6 +1113,9 @@ footer {
 	.article-card {
 		h5 {
 			font-size: 1.250em;
+		}
+		p {
+			display: none;
 		}
 	}
 	.logo-asset {

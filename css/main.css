@@ -597,12 +597,14 @@ footer {
   .blogpost h5 {
     margin-top: 20px;
     font-size: 1em;
-    font-weight: bolder; }
+    font-weight: bolder;
+    margin-bottom: 0; }
   .blogpost h5 a {
     color: black !important; }
   .blogpost p {
     font-size: 14px;
-    color: #555A59; }
+    color: #555A59;
+    font-weight: bold; }
   .blogpost .postimg {
     width: 100%; }
 
@@ -962,6 +964,8 @@ footer {
 
   .article-card h5 {
     font-size: 1.250em; }
+  .article-card p {
+    display: none; }
 
   .logo-asset {
     height: 70px; }
