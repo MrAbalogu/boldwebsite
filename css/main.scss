@@ -350,7 +350,7 @@ footer {
 
 	h5 {
 		text-align: left;
-		font-size: 1.3em;
+		font-size: 1.750em;
 		font-weight: 700;
 	}
 	p {
@@ -583,29 +583,41 @@ footer {
 	}
 }
 .science-bg {
-	padding: 6em;
+	padding: 6em 140px;
 	text-align: left;
 	color: white;
-
+	p {
+		font-size: 1.250em;
+   		font-weight: 700;
+	}
 	h1 {
 		margin-top: 30px;
+		font-size: 4.750em;
+    	font-weight: 700;
 	}
 }
 .what-science {
-	padding: 6em;
+	padding: 6em 140px;
 	color: #555A59;
 
 	h2 {
+		font-size: 3.250em;
+		font-weight: 700;
 		margin-bottom: 40px;
+	} 
+
+	p {
+		font-size: 1.750em;
 	}
 }
 .science-facts {
-	padding: 6em;
+	padding: 6em 140px;
 	background: #01A48F;
 	color: rgba(255,255,255,.85);	
 
 	h2 {
-		padding: 0 15px;
+		font-size: 3.250em;
+		font-weight: 700;
 		margin-bottom: 40px;
 	}
 
@@ -613,9 +625,28 @@ footer {
 		font-weight: lighter;
 	}
 }
+.facts-answers {
+	padding: 0;
+	b {
+		font-size: 1.750em;
+		font-weight: 700;
+	}
+	p {
+		font-size: 1.250em;
+		font-weight: 400;
+	}
+}
+.facts-padding {
+	padding-left: 20px;
+}
 .science-articles {
-	padding: 6em;
+	padding: 6em 140px;
 	color: #555A59;
+
+	h2 {
+		font-size: 3.250em;
+		font-weight: 700;
+	}
 }
 .article-card {
 	background-color: white;
@@ -941,10 +972,24 @@ footer {
     	}
     }
     .what-science {
-    	padding: 80px 20px !important;
-    }
+		padding: 80px 20px !important;
+		color: #555A59;
+		h2 {
+			font-size: 1.250em;
+			font-weight: 700;
+			margin-bottom: 40px;
+		} 
+
+		p {
+			font-size: 0.875em;
+		}
+	}
     .science-facts {
     	padding: 80px 20px !important;
+
+    	h2 {
+    		font-size: 1.750em !important;
+    	}
     }
     .science-bg {
     	padding: 80px 20px !important;
@@ -979,13 +1024,13 @@ footer {
 		width: 100%;
 		text-align: center;
 		h1 {
-			margin-top: 3em;
+			margin-top: 1em;
 			color: white;
-			font-size: 2em;
+			font-size: 1.750em;
+			font-weight: 700;
 		}
 		p {
-			color: white;
-			font-size: 1.2em;
+			display: none;
 		}
 		.header-menu-list {
 			margin-left: 10em;
@@ -1018,6 +1063,32 @@ footer {
 			font-size: 1.250em;
 			font-weight: 700;
 			text-align: center;
+		}
+	}
+	.facts-answers {
+		padding: 0;
+		b {
+			font-size: 0.875em;
+			font-weight: 700;
+		}
+		p {
+			font-size: 0.875em;
+			font-weight: 400;
+		}
+	}
+	.science-articles {
+		padding: 40px 20px !important;
+		h2 {
+			font-size: 1.250em;
+			font-weight: 700;
+		}
+	}
+	.facts-padding {
+		padding-left: 0 !important;
+	}
+	.article-card {
+		h5 {
+			font-size: 1.250em;
 		}
 	}
 	.contactform {
