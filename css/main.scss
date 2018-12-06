@@ -750,6 +750,20 @@ footer {
 		font-size: 1.250em;
 	}
 }
+.logo-asset-card {
+	background: white;
+	padding: 5em;
+	width: 95%;
+	margin-left: 2.5%;
+	margin-bottom: 20px;
+	text-align: center;
+	-webkit-box-shadow: -1px 46px 108px -19px rgba(120,120,120,1);
+	-moz-box-shadow: -1px 46px 108px -19px rgba(120,120,120,1);
+	box-shadow: -1px 46px 108px -19px rgba(120,120,120,1);
+}
+.logo-asset {
+	height: 100px;
+}
 .contactbg {
 	width: 100%;
 }
@@ -785,6 +799,14 @@ footer {
 	background: #EAEAEA;
 	padding: 3em 0;
 }
+/**********************************
+	PRESS PAGE
+**********************************/
+.pressimg {
+	height: 30px;
+	margin-bottom: 20px;
+}
+
 /**********************************
 	POST PAGE
 **********************************/
@@ -1090,6 +1112,9 @@ footer {
 		h5 {
 			font-size: 1.250em;
 		}
+	}
+	.logo-asset {
+	    height: 70px;
 	}
 	.contactform {
 		position: relative;
