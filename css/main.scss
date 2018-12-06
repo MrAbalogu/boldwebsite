@@ -215,7 +215,7 @@ header {
 }
 /*** FOOTER STYLES ****/
 footer {
-	padding: 6em;
+	padding: 152px 140px;
 	background: #CCEBED;
 
 	p {
@@ -360,7 +360,7 @@ footer {
 	}
 }
 .subscribe-newsletter {
-	padding: 6em 6em;
+	padding: 152px 140px;
 	margin-top: 40px;
 	color: #555A59;
 }
@@ -403,7 +403,7 @@ footer {
 	}
 }
 .page-title {
-	padding: 6em;
+	padding: 6em 140px;
 	color: #555A59;
 	h1 {
 		font-size: 4.750em;
@@ -418,7 +418,7 @@ footer {
 	width: 100%;
 }
 .how-it-started {
-	padding: 6em;
+	padding: 6em 140px;
 	color: #555A59;
 	h2 {
 		margin-bottom: 1em;
@@ -430,7 +430,7 @@ footer {
 	}
 }
 .team {
-	padding: 0 6em 6em 6em;
+	padding: 0 140px 6em 140px;
 	color: #555A59;
 	h1 {
 		font-size: 3.250em;
@@ -474,7 +474,7 @@ footer {
 	}
 }
 .experts {
-	padding: 0 6em 6em 6em;
+	padding: 0 140px 6em 140px;
 	color: #555A59;
 	h1 {
 		font-size: 3.250em;
@@ -507,11 +507,13 @@ footer {
 	}
 }
 .company-values {
-	padding: 6em 6em 2em 6em;
+	padding: 6em 140px 2em 140px;
 	background-color: #01A48F;
 
 	h2 {
 		color: white;
+		font-weight: 700;
+		font-size: 3.250em;
 	}
 }
 .company-values-card {
@@ -663,14 +665,16 @@ footer {
 	background-color: #74A18E;
 
 	.icon-cont {
-		padding: 10em;
+		padding: 10em 5em 10em 10em;
 		h5 {
 			color: white;
 			letter-spacing: 0.2px;
-			line-height: 25px;
+			line-height: 40px;
+			font-size: 1.750em;
 		}
 		p {
 			color: white;
+			font-size: 0.875em;
 		}
 	}
 
@@ -685,10 +689,11 @@ footer {
   	margin-bottom: 20px;
 }
 .upcoming-products {
-	padding: 6em;
+	padding: 6em 140px;
 	color: #555A59;
-	h4 {
-		font-size: 2em;
+	h2 {
+		font-size: 3.250em;
+		font-weight: 700;
 	}
 }
 .newsletter-card {
@@ -705,11 +710,13 @@ footer {
 
 	h5 {
 		text-align: left;
+		font-size: 1.750em;
+		font-weight: 700;
 	}
 	p {
 		margin-top: 20px;
 		text-align: left;
-		font-size: 12px;
+		font-size: 1.250em;
 	}
 }
 .contactbg {
@@ -949,6 +956,13 @@ footer {
     footer {
     	padding: 40px 20px !important;
     }
+    .upcoming-products {
+    	padding: 40px 20px !important;
+    	h2 {
+    		font-size: 1.750em;
+    		font-weight: 700;
+    	}
+    }
     .subscribe-input {
     	width: 100%;
     	margin-bottom: 10px;
@@ -993,6 +1007,18 @@ footer {
 	}
 	.newsletter-h1 {
 		font-size: 1.750em;
+	}
+	.newsletter-card {
+		h5 {
+			font-size: 3.250em;
+			text-align: center;
+			font-weight: 400;
+		}
+		p {
+			font-size: 1.250em;
+			font-weight: 700;
+			text-align: center;
+		}
 	}
 	.contactform {
 		position: relative;

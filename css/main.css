@@ -204,7 +204,7 @@ header {
     margin-left: 10px; } }
 /*** FOOTER STYLES ****/
 footer {
-  padding: 6em;
+  padding: 152px 140px;
   background: #CCEBED; }
   footer p {
     font-size: 0.625em; }
@@ -330,7 +330,7 @@ footer {
     font-size: 12px; }
 
 .subscribe-newsletter {
-  padding: 6em 6em;
+  padding: 152px 140px;
   margin-top: 40px;
   color: #555A59; }
 
@@ -369,7 +369,7 @@ footer {
         font-size: 0.938em; }
 
 .page-title {
-  padding: 6em;
+  padding: 6em 140px;
   color: #555A59; }
   .page-title h1 {
     font-size: 4.750em;
@@ -382,7 +382,7 @@ footer {
   width: 100%; }
 
 .how-it-started {
-  padding: 6em;
+  padding: 6em 140px;
   color: #555A59; }
   .how-it-started h2 {
     margin-bottom: 1em;
@@ -392,7 +392,7 @@ footer {
     font-size: 1.250em; }
 
 .team {
-  padding: 0 6em 6em 6em;
+  padding: 0 140px 6em 140px;
   color: #555A59; }
   .team h1 {
     font-size: 3.250em;
@@ -430,7 +430,7 @@ footer {
     height: 150px; }
 
 .experts {
-  padding: 0 6em 6em 6em;
+  padding: 0 140px 6em 140px;
   color: #555A59; }
   .experts h1 {
     font-size: 3.250em;
@@ -458,10 +458,12 @@ footer {
     font-weight: 400; }
 
 .company-values {
-  padding: 6em 6em 2em 6em;
+  padding: 6em 140px 2em 140px;
   background-color: #01A48F; }
   .company-values h2 {
-    color: white; }
+    color: white;
+    font-weight: 700;
+    font-size: 3.250em; }
 
 .company-values-card {
   width: 95%;
@@ -582,13 +584,15 @@ footer {
 .product-cont {
   background-color: #74A18E; }
   .product-cont .icon-cont {
-    padding: 10em; }
+    padding: 10em 5em 10em 10em; }
     .product-cont .icon-cont h5 {
       color: white;
       letter-spacing: 0.2px;
-      line-height: 25px; }
+      line-height: 40px;
+      font-size: 1.750em; }
     .product-cont .icon-cont p {
-      color: white; }
+      color: white;
+      font-size: 0.875em; }
   .product-cont .mobileapp {
     width: 80%;
     margin-left: 10%; }
@@ -599,10 +603,11 @@ footer {
   margin-bottom: 20px; }
 
 .upcoming-products {
-  padding: 6em;
+  padding: 6em 140px;
   color: #555A59; }
-  .upcoming-products h4 {
-    font-size: 2em; }
+  .upcoming-products h2 {
+    font-size: 3.250em;
+    font-weight: 700; }
 
 .newsletter-card {
   background: white;
@@ -616,11 +621,13 @@ footer {
   -moz-box-shadow: -1px 46px 108px -19px #787878;
   box-shadow: -1px 46px 108px -19px #787878; }
   .newsletter-card h5 {
-    text-align: left; }
+    text-align: left;
+    font-size: 1.750em;
+    font-weight: 700; }
   .newsletter-card p {
     margin-top: 20px;
     text-align: left;
-    font-size: 12px; }
+    font-size: 1.250em; }
 
 .contactbg {
   width: 100%; }
@@ -825,6 +832,12 @@ footer {
   footer {
     padding: 40px 20px !important; }
 
+  .upcoming-products {
+    padding: 40px 20px !important; }
+    .upcoming-products h2 {
+      font-size: 1.750em;
+      font-weight: 700; }
+
   .subscribe-input {
     width: 100%;
     margin-bottom: 10px; }
@@ -864,6 +877,15 @@ footer {
 
   .newsletter-h1 {
     font-size: 1.750em; }
+
+  .newsletter-card h5 {
+    font-size: 3.250em;
+    text-align: center;
+    font-weight: 400; }
+  .newsletter-card p {
+    font-size: 1.250em;
+    font-weight: 700;
+    text-align: center; }
 
   .contactform {
     position: relative;
