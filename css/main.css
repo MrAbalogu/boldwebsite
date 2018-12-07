@@ -770,7 +770,7 @@ footer {
   width: 100%; }
 
 .thepost-cont {
-  padding: 6em; }
+  padding: 6em 140px; }
 
 .yellow-hr {
   border: 2px solid #F9C929; }
@@ -798,8 +798,11 @@ footer {
     margin-right: 30px; }
 
 .more-articles {
-  margin: 0 4em;
+  padding: 2em 140px;
   font-size: 1.750em; }
+  .more-articles h2 {
+    font-size: 1.750em;
+    font-weight: 400; }
 
 .sidepost {
   padding-top: 5em; }
@@ -1038,6 +1041,28 @@ footer {
     padding-bottom: 1em; }
 
   .thepost-cont {
-    padding: 10px 20px 40px 20px !important; } }
+    padding: 10px 20px 40px 20px !important; }
+
+  .share-button {
+    display: none; }
+
+  .share-story {
+    display: none; }
+
+  .sidepost {
+    padding-top: 10px; }
+
+  .article-heading {
+    font-size: 1.250em;
+    font-weight: 400 !important; }
+
+  .mainpost {
+    padding-right: 0 !important; }
+
+  .more-articles {
+    padding: 0 20px !important; }
+    .more-articles h2 {
+      font-size: 0.875em;
+      font-weight: 700; } }
 
 /*# sourceMappingURL=main.css.map */
