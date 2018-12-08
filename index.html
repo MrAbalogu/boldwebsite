@@ -24,6 +24,16 @@
     <script src="js/modernizr.custom.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/inter-ui@3.0.0/Inter UI (web)/Inter-UI-Black.woff" rel="stylesheet">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113239510-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-113239510-1');
+    </script>
+
 </head>
 
 <body>
@@ -197,6 +207,11 @@
     </div>    
     <!-- /#wrapper -->
 
+    <div id="popup" class="cookies-popup">
+        <p>This website uses cookies. <span id="privacy-page"> Find out more</span></p>
+        <a id="close-popup" class="btn popup-button">Got it</a>
+    </div>
+
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -216,6 +231,12 @@
     $("#menu-toggle2").click(function(e) {
         e.preventDefault();
         $("#wrapper").addClass("toggled");
+    });
+    $("#close-popup").click(function(){
+        $("#popup").hide();
+    });
+    $("#privacy-page").click(function(){
+       window.location.href = "privacy.html";
     });
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();

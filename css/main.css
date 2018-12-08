@@ -74,6 +74,27 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
     color: black !important;
     text-decoration: underline !important; }
 
+.cookies-popup {
+  position: absolute;
+  width: 95%;
+  margin: 20px 2.5%;
+  bottom: 0;
+  padding: 2em;
+  background-color: white; }
+  .cookies-popup p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #555A59;
+    margin: 0 !important;
+    float: left; }
+    .cookies-popup p span {
+      color: #01A48F !important; }
+  .cookies-popup a {
+    float: right; }
+
+#privacy-page {
+  cursor: pointer; }
+
 /************************
 	BUTTONS
 *************************/
@@ -105,6 +126,18 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
   .white-button:hover {
     background-color: gray;
     color: white !important; }
+
+.popup-button {
+  background-color: #999999;
+  border-radius: 50px;
+  font-weight: bold;
+  color: #555A59 !important;
+  padding: 3px 10px;
+  font-size: 14px;
+  font-weight: 700; }
+  .popup-button:hover {
+    background-color: black;
+    color: white; }
 
 .share-button {
   padding: 3px 40px !important;
@@ -154,9 +187,9 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
   background-color: white;
   border-radius: 50px;
   font-weight: bold;
-  color: gray !important;
+  color: black !important;
   margin-bottom: 20px;
-  border: 1px solid #D8D8D8; }
+  border: 1px solid black; }
   .whiteborder-button:hover {
     background-color: gray;
     color: white !important; }
@@ -592,13 +625,17 @@ footer {
   padding: 6em;
   color: #555A59; }
   .whitepages-landing h2 {
-    font-size: 3em; }
+    font-size: 3.250em;
+    font-weight: 700; }
   .whitepages-landing h3 {
     font-size: 1.5em;
     font-weight: bold;
     margin: 3em 0; }
   .whitepages-landing p {
+    font-size: 1.250em;
     font-weight: lighter; }
+  .whitepages-landing .legal-p {
+    font-weight: 700 !important; }
 
 .blogpost {
   width: 95%;
@@ -684,9 +721,9 @@ footer {
 
 .contactform {
   color: #555A59;
-  width: 45%;
+  width: 40%;
   position: absolute;
-  top: 100px;
+  top: 218px;
   right: 50px;
   background-color: white;
   -webkit-box-shadow: -1px 46px 108px -19px #787878;
@@ -830,7 +867,7 @@ footer {
       font-size: 1.750em !important; }
 
   .subscribe-newsletter {
-    padding: 40px 20px !important; }
+    padding: 0 20px !important; }
 
   .page-title {
     padding: 80px 20px !important; }
@@ -911,7 +948,7 @@ footer {
     padding: 80px 20px !important; }
 
   .icon-cont {
-    padding: 80px 20px !important;
+    padding: 80px 20px 0 20px !important;
     text-align: center; }
 
   footer {
@@ -1000,7 +1037,7 @@ footer {
     position: relative;
     width: 95%;
     margin: 2.5%;
-    top: 0;
+    top: -97px;
     right: 0; }
 
   .homebg-cont {
@@ -1063,6 +1100,25 @@ footer {
     padding: 0 20px !important; }
     .more-articles h2 {
       font-size: 0.875em;
-      font-weight: 700; } }
+      font-weight: 700; }
+
+  .contactbg {
+    display: none; }
+
+  .whitepages-landing {
+    padding: 80px 20px !important; }
+    .whitepages-landing h2 {
+      font-size: 1.750em;
+      font-weight: 700; }
+    .whitepages-landing p {
+      font-size: 0.875em; }
+    .whitepages-landing .legal-p {
+      font-size: 0.625em !important; }
+    .whitepages-landing h3 {
+      font-size: 1.750em;
+      margin: 20px 0; }
+
+  .card-button {
+    padding: 9px 37px !important; } }
 
 /*# sourceMappingURL=main.css.map */
