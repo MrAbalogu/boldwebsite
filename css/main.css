@@ -437,7 +437,7 @@ footer {
     font-size: 1.250em; }
 
 .team {
-  padding: 0 140px 6em 140px;
+  padding: 6em 140px 6em 140px;
   color: #555A59; }
   .team h1 {
     font-size: 3.250em;
@@ -454,13 +454,13 @@ footer {
   font-size: 0.625em; }
   .leader-details h4 {
     padding-top: 10px;
-    font-size: 1.250em;
-    font-weight: 400;
+    font-size: 1.5em;
+    font-weight: 700;
     margin-bottom: 5px !important; }
   .leader-details p {
-    font-size: 0.875em;
+    font-size: 1.25em;
     margin-bottom: 10px;
-    font-weight: 400;
+    font-weight: 500;
     margin-bottom: 5px !important; }
 
 .side-quote {
@@ -495,15 +495,15 @@ footer {
   font-size: 0.625em; }
   .expert-details h4 {
     padding-top: 10px;
-    font-size: 1.250em;
-    font-weight: 400; }
+    font-size: 1.5em;
+    font-weight: 700; }
   .expert-details p {
-    font-size: 0.875em;
+    font-size: 1.25em;
     margin-bottom: 10px;
-    font-weight: 400; }
+    font-weight: 500; }
 
 .company-values {
-  padding: 6em 140px 2em 140px;
+  padding: 6em 140px 6em 140px;
   background-color: #01A48F; }
   .company-values h2 {
     color: white;
@@ -909,9 +909,11 @@ footer {
     padding-left: 120px;
     margin-bottom: 30px; }
     .leaders-list .leader-details h4 {
+      font-size: 1.25em !important;
       margin-bottom: 0 !important;
       padding-top: 8px !important; }
     .leaders-list .leader-details p {
+      font-size: 1em !important;
       margin-bottom: 0 !important; }
 
   .experts {
@@ -920,6 +922,8 @@ footer {
   .expert-details {
     padding: 5px 0 0 40px !important; }
     .expert-details h4 {
+      padding-top: 0 !important;
+      font-size: 1.25em !important;
       margin-bottom: 0 !important; }
     .expert-details p {
       margin-bottom: 0 !important; }
