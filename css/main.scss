@@ -198,11 +198,11 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
 	background-color: white;
     border-radius: 50px;
     font-weight: bold;
-    color: black !important;
+    color: #555A59 !important;
     margin-bottom: 20px;
-    border: 1px solid black;
+    border: 1px solid #555A59;
     &:hover {
-    	background-color: gray;
+    	background-color: #555A59;
     	color: white !important;
     }
 }
