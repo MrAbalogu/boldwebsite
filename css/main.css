@@ -45,6 +45,9 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
 .hr-white {
   border-color: rgba(255, 255, 255, 0.5); }
 
+.darkhr {
+  background-color: #555A59; }
+
 .x-icon {
   height: 20px;
   float: right; }
@@ -96,6 +99,18 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
     float: right; }
 
 #privacy-page {
+  cursor: pointer; }
+
+#title1 {
+  height: 448px;
+  cursor: pointer; }
+
+#title2 {
+  height: 448px;
+  cursor: pointer; }
+
+#title3 {
+  height: 448px;
   cursor: pointer; }
 
 /************************
@@ -390,7 +405,8 @@ footer {
 
 .contact-input {
   width: 100%;
-  font-size: 1em; }
+  font-size: 1em;
+  border-bottom: 2px solid gray !important; }
 
 /**********************************
 	ABOUT PAGE
@@ -1136,6 +1152,15 @@ footer {
     padding: 9px 37px !important; }
 
   .break {
-    display: inline; } }
+    display: inline; }
+
+  #title1 {
+    height: inherit !important; }
+
+  #title2 {
+    height: inherit !important; }
+
+  #title3 {
+    height: inherit !important; } }
 
 /*# sourceMappingURL=main.css.map */
