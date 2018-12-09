@@ -102,7 +102,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
 	BUTTONS
 *************************/
 .yellow-button {
-	background-color: #E6B438;
+	background-color: #F9C929;
     border-radius: 50px;
     font-weight: bold;
     color: black !important;
@@ -126,7 +126,7 @@ input[type=text]:focus, input[type=password]:focus, input[type=email]:focus, tex
 	background-color: white;
     border-radius: 50px;
     font-weight: bold;
-    color: gray !important;
+    color: #555A59 !important;
     margin-bottom: 20px;
     &:hover {
     	background-color: gray;
