@@ -283,6 +283,10 @@ footer {
     .footer-list li a {
       color: #555A59; }
 
+.mc-field-group {
+  width: 60%;
+  margin-top: 15px; }
+
 /**********************************
 	HOME PAGE
 **********************************/
@@ -403,7 +407,7 @@ footer {
   font-weight: 700; }
 
 .subscribe-input {
-  width: 60%;
+  width: 100%;
   font-size: 1em; }
 
 .contact-input {
@@ -1181,6 +1185,10 @@ footer {
   .broken-card {
     height: inherit !important; }
     .broken-card h5 {
-      margin-bottom: .5rem !important; } }
+      margin-bottom: .5rem !important; }
+
+  .mc-field-group {
+    width: 100% !important;
+    margin-top: 15px; } }
 
 /*# sourceMappingURL=main.css.map */

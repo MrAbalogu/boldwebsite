@@ -304,7 +304,10 @@ footer {
 		}
 	}
 }
-
+.mc-field-group {
+	width: 60%;
+	margin-top: 15px;
+}
 /**********************************
 	HOME PAGE
 **********************************/
@@ -438,7 +441,7 @@ footer {
 	font-weight: 700;
 }
 .subscribe-input {
-	width: 60%;
+	width: 100%;
 	font-size: 1em;
 }
 .contact-input {
@@ -1357,5 +1360,9 @@ footer {
 		h5 {
 			margin-bottom: .5rem !important;
 		}
+	}
+	.mc-field-group {
+		width: 100% !important;
+		margin-top: 15px;
 	}
 }
