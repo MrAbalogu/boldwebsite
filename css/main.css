@@ -403,7 +403,8 @@ footer {
 .contact-input {
   width: 100%;
   font-size: 1em;
-  border-bottom: 2px solid gray !important; }
+  border-bottom: 2px solid gray !important;
+  color: #555A59; }
 
 .broken-card {
   height: 322.5px; }
@@ -756,7 +757,7 @@ footer {
 
 .otherways {
   background: #EAEAEA;
-  padding: 4em 2em; }
+  padding: 2em; }
   .otherways h5 {
     margin-bottom: 20px; }
   .otherways li {
